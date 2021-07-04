@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section {
+    width: 80%;
+    height: 60%;
+    background: hsl(244, 38%, 16%);
+    display: flex;
+
+}
+
+div {
+    width: 50%;
+}
+
+#right {
+    background: url('./images/image-header-desktop.jpg') hsl(277, 64%, 61%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 70px;
+    padding: 70px;
+}
+
+b {
+    color: hsl(277, 64%, 61%)
+}
+
+h1 {
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    width: 90%;
+}
+
+#text {
+    /* margin-top: 30px; */
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+
+span {
+    display: grid;
+    gap: 10px;
+}
+
+span p:first-child {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+span p {
+    color: hsla(0, 0%, 100%, 0.6);
+    
+}
+
+h1, p, b {
+    margin: 0;
+    padding: 0;
+}
